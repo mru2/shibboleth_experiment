@@ -8,4 +8,4 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-127.0.0.1 testshib.dev
+127.0.0.1 jt-test-shib.dev

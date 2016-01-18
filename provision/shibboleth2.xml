@@ -13,7 +13,7 @@ https://wiki.shibboleth.net/confluence/display/SHIB2/NativeSPConfiguration
     clockSkew="1800">
 
     <!-- The entityID is the name TestShib made for your SP. -->
-    <ApplicationDefaults entityID="https://testshib.dev/shibboleth"
+    <ApplicationDefaults entityID="https://jt-test-shib.dev/shibboleth"
         REMOTE_USER="eppn">
 
         <!-- You should use secure cookies if at all possible.  See cookieProps in this Wiki article. -->
@@ -33,7 +33,7 @@ https://wiki.shibboleth.net/confluence/display/SHIB2/NativeSPConfiguration
             <!--
                 Handlers allow you to interact with the SP and gather more information.  Try them out!
                 Attribute values received by the SP through SAML will be visible at:
-                http://testshib.dev/Shibboleth.sso/Session
+                http://jt-test-shib.dev/Shibboleth.sso/Session
             -->
 
             <!-- Extension service that generates "approximate" metadata based on SP configuration. -->
